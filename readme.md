@@ -25,7 +25,7 @@ Certifique-se de ter o seguinte instalado em sua máquina:
 
 
 3. **Configure o Prisma**  
-    Certifique-se de que o arquivo `.env` está configurado corretamente com as informações do banco de dados. Um exemplo de configuração pode ser encontrado no arquivo `DATABASE_URL="file:./dev.db"`.
+    Certifique-se de que o arquivo `.env` está configurado corretamente com as informações do banco de dados. Um exemplo de configuração pode ser encontrado no arquivo `DATABASE_URL="file:./dev.db"` e a porta `PORT=3000`.
 
 4. **Execute as migrações do Prisma**  
     Para criar as tabelas no banco de dados, execute:
