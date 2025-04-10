@@ -1,4 +1,4 @@
-# Atividade Avaliativa (e-commerce especializada em produtos esportivos)
+# ✔ Atividade Avaliativa (e-commerce especializada em produtos esportivos)
 
 Bem-vindo ao repositório de desenvolvimento de API, Este guia irá ajudá-lo a configurar e executar o projeto localmente.
 
@@ -17,14 +17,14 @@ Certifique-se de ter o seguinte instalado em sua máquina:
     cd AtividadeAvaliativa-10-04
     ```
 
-2. **Instale as dependências**  
+2. ** 📦 Instale as dependências**  
     Execute o comando abaixo para instalar todas as dependências do projeto:
     ```bash
     npm install
     ```
 
 
-3. **Configure o Prisma**  
+3. ** Configure o Prisma**  
     Certifique-se de que o arquivo `.env` está configurado corretamente com as informações do banco de dados. Um exemplo de configuração pode ser encontrado no arquivo `DATABASE_URL="file:./dev.db"`.
 
 4. **Execute as migrações do Prisma**  
@@ -33,7 +33,7 @@ Certifique-se de ter o seguinte instalado em sua máquina:
     npx prisma migrate dev
     ```
 
-5. **Inicie o servidor**  
+5. *🚀 Inicie o servidor**  
     Após configurar o banco de dados, inicie o servidor:
     ```bash
     npm run dev
@@ -108,7 +108,7 @@ Exemplo:
 - **Express.js**: Framework utilizado para gerenciar as rotas e middleware do servidor.
 - **Variáveis de Ambiente**: Configurações sensíveis, como a URL do banco de dados, são gerenciadas por meio de variáveis de ambiente.
 
-## Tecnologias Utilizadas
+## 👨‍💻 Tecnologias Utilizadas
 
 - **Node.js**: Ambiente de execução JavaScript.
 - **Express.js**: Framework para criação de APIs.
