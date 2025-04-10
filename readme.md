@@ -33,7 +33,7 @@ Certifique-se de ter o seguinte instalado em sua máquina:
     npx prisma migrate dev
     ```
 
-5. *🚀 Inicie o servidor**  
+5. **🚀 Inicie o servidor**  
     Após configurar o banco de dados, inicie o servidor:
     ```bash
     npm run dev
