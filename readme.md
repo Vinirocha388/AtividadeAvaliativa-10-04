@@ -17,7 +17,7 @@ Certifique-se de ter o seguinte instalado em sua máquina:
     cd AtividadeAvaliativa-10-04
     ```
 
-2. ** 📦 Instale as dependências**  
+2. **📦 Instale as dependências**  
     Execute o comando abaixo para instalar todas as dependências do projeto:
     ```bash
     npm install
