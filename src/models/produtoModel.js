@@ -1,50 +1,53 @@
 import prisma from "../../prisma/client.js";
 
-class NotaModel {
+class produtoModel {
   getAll = async () => {
-    return await prisma.nota.findMany();
+    return await prisma.produto.findMany();
   };
 
   getById = async (id) => {
-    return await prisma.nota.findUnique({ where: { id } });
+    return await prisma.produto.findUnique({ where: { id } });
   };
 
-  searchByTerm = async (term) => {
-    return await prisma.nota.findMany({
+  searchByTerm = async (category) => {
+    return await prisma.produto.findMany({
       where: {
         OR: [
-          { titulo: { contains: term, mode: "insensitive" } },
-          { conteudo: { contains: term, mode: "insensitive" } },
+          { name: { contains: term, mode: "insensitive" } },
+          { category: { contains: term, mode: "insensitive" } },
+          { brand: { contains: term, mode: "insensitive" } },
         ],
       },
     });
   };
 
-  create = async (titulo, conteudo, cor) => {
+  create = async (name, price, category,brand,stock) => {
 
-    const nota = await prisma.nota.create({
+    const produto = await prisma.produto.create({
       data: {
-        titulo,
-        conteudo,
-        cor,
+        name,
+        price,
+        category,
+        brand,
+        stock,
       },
     });
-    return nota;
+    return produto;
     
   };
 
   update = async (id, data) => {
-    return await prisma.nota.update({
+    return await prisma.produto.update({
       where: { id },
       data,
     });
   };
 
   delete = async (id) => {
-    return await prisma.nota.delete({ where: { id } });
+    return await prisma.produto.delete({ where: { id } });
   };
 }
 
 
 
-export default new NotaModel();
+export default new produtoModel();
