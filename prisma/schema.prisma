@@ -33,3 +33,18 @@ model Nota {
 
   @@map("notas")
 }
+
+model Produto {
+  id            Int       @id @default(autoincrement())
+  name          String
+  price         String
+  category      String    
+  brand         String    
+  stock         Int       
+  imageUrl      String?   
+  isActive      Boolean   @default(true)  
+  criadaEm      DateTime  @default(now())
+  atualizadaEm  DateTime  @updatedAt
+
+  @@map("produtos")
+}
