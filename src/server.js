@@ -5,5 +5,5 @@ const port = 3000;
 app.use(express.json());
 app.use("/produtos", produtosRoutes);
 app.listen(port, () => {
-  console.log(`Servidor rodando na porta ${port}`);
+  console.log(`Servidor rodando na http://localhost:${port}`);
 });
