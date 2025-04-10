@@ -1,6 +1,6 @@
-# NoteHub
+# Atividade Avaliativa (e-commerce especializada em produtos esportivos)
 
-Bem-vindo ao repositório do NoteHub! Este guia irá ajudá-lo a configurar e executar o projeto localmente.
+Bem-vindo ao repositório de desenvolvimento de API, Este guia irá ajudá-lo a configurar e executar o projeto localmente.
 
 ## Pré-requisitos
 
@@ -13,8 +13,8 @@ Certifique-se de ter o seguinte instalado em sua máquina:
 1. **Clone o repositório**  
     Clone este repositório para sua máquina local:
     ```bash
-    git clone https://github.com/Vinirocha388/NoteHub.git
-    cd NoteHub
+    git clone https://github.com/Vinirocha388/AtividadeAvaliativa-10-04
+    cd AtividadeAvaliativa-10-04
     ```
 
 2. **Instale as dependências**  
@@ -40,7 +40,7 @@ Certifique-se de ter o seguinte instalado em sua máquina:
     ```
 
 6. **Acesse o projeto**  
-    Abra o navegador e acesse `http://localhost:3000` para visualizar o NoteHub.
+    Abra o postman ou qualquer outro consultor de API e acesse `http://localhost:3000` para visualizar as requisicões e produtos criados.
 
 ## Exemplos de Requisições
 
